@@ -1,5 +1,6 @@
 ## Robot-Operator-system
-docker
+##docker
+
 $ docker ps
 
 $ docker ps [-a]
@@ -11,6 +12,9 @@ $ docker pull ubuntu
 $ docker [container_id or container_name] start/stop/restart
 
 $ docker run [image_id or image_name] -it /bin/bash -v [name_a:name_b]
+
+#for login to system 
+$ docker exec -it [cpmtainer id or name] /bin/bash
 
 ## Run ROS:
 
