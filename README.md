@@ -16,7 +16,7 @@ $ docker run [image_id or image_name] -it /bin/bash -v [name_a:name_b]
 
 #for login to system
 
-$ docker exec -it [cpmtainer id or name] /bin/bash
+$ docker exec -it [comtainer id or name] /bin/bash
 
 ## Run ROS:
 
